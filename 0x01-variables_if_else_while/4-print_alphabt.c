@@ -11,8 +11,8 @@ int main(void)
 	while
 		(x <= 'z') {
 			if ((x != 'q' && x != 'e') && x <= 'z')
-				putchr(x);
-			x++
+				putchar(x);
+			x++;
 		}
 	putchar('\n');
 	return (0);
