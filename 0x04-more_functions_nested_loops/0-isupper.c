@@ -6,6 +6,8 @@
  */
 int _isupper(int c)
 {
+	int i;
+
 	if (c >= 'a' && c <= 'z')
 	{
 		i = 0;
