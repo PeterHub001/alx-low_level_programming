@@ -5,9 +5,10 @@
  * @s: memory area to fill
  * @b: constant byte to fill
  * @n: vytes of memory area to fill
+ *
  * Return: the memory area filled
  */
-_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
