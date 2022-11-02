@@ -7,7 +7,7 @@
  * @n: vytes of memory area to fill
  * Return: the memory area filled
  */
-_memset(char s, char b, unsigned int n)
+_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
